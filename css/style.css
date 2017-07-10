@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  background-color: #607D8B;
+}
+.complete{
+  color: #E91E63;
+}
+.container {
+  color: white;
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 0px;
+  margin-top: 82px;
+  border-radius: 26px;
+  min-height: 333px;
+  padding: 25px;
+
+}
+
+li{
+  font-size: 20px;
+  list-style: square;
+}
+input {
+  width: 440px;
+  height: 40px;
+  margin-top: 20px;
+  padding: 5px;
+
+}
+
+.fa-plus {
+  margin-top: 26px;
+  width: 50px;
+  line-height: 25px;
+  border: #247BA0;
+  background-color: #E91E63;
+  color: white;
+  border-radius: 50%;
+  height: 50px;
+}
+#removeFinishedTasksButton{
+  font-family: 'Lobster', cursive;
+  font-size: 21px;
+  margin: 10px;
+  width: 200px;
+  line-height: 37px;
+  border: #247BA0;
+  background-color: #E91E63;
+  color: white;
+  border-radius: 7px;
+
+}
+.container>div{
+  z-index: 0;
+  font-size: 43px;
+}
