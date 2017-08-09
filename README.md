@@ -8,4 +8,4 @@ It's simple application with the following features:
 - The "Complete" button changes the color of task to pink
 - "Remove finished tasks" removes the tasks which are marked as completed
 
-<img src="images/laptop.png">
+Preview link: https://klaudiapolan.github.io/todolist/
