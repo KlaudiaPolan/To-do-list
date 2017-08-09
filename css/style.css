@@ -29,7 +29,7 @@ li{
   list-style: square;
 }
 input {
-  width: 440px;
+  width: 40vw;
   height: 40px;
   margin-top: 20px;
   padding: 5px;
@@ -61,4 +61,15 @@ input {
 .container>div{
   z-index: 0;
   font-size: 43px;
+}
+
+@media (max-width: 900px) and (min-width: 700px) {
+  input{
+    width: 60vw;
+  }
+}
+@media (max-width: 700px){
+  input{
+    width: 70vw;
+  }
 }
